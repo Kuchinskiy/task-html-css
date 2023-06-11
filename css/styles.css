@@ -58,7 +58,7 @@ img {
 .list-item .link {
 	text-decoration: none;
 	font-weight: 500;
-	color: #212121;
+	color: var(--title-text-color);
 }
 
 .list-item .link:hover,
@@ -66,6 +66,8 @@ img {
 	color: #2196F3;
 }
 
-.phone-mobile {
+.list-item .connect {
 	color: var(--primary-text-color);
+	font-family: 'Roboto';
+	font-weight: 500;
 }
