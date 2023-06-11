@@ -1,0 +1,15 @@
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Raleway, Roboto, sans-serif;
+	color: var(--primary-text-color);
+	font-size: 14px;
+	line-height: 1.71;
+}
