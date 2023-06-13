@@ -39,6 +39,7 @@ img {
 	font-size: 26px;
 	text-decoration: none;
 	letter-spacing: 0.03em;
+	font-family: 'Raleway';
 }
 
 .name-web {
@@ -71,3 +72,5 @@ img {
 	font-family: 'Roboto';
 	font-weight: 500;
 }
+
+/* HERO */
