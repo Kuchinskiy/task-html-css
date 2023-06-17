@@ -1,7 +1,7 @@
 /* Default */
 :root {
 	--primary-text-color: #757575;
-	--title-text-color: #212121;
+	--title-desc-color: #212121;
 	--banner-bg-color: #2F303A;
 	--banner-title-btn-text-color: #FFFFFF;
 	--color-hover-bg-btn: #2196F3;
@@ -28,7 +28,6 @@ input[type="radio"].visually-hidden {
 body {
 	font-family: Raleway, Roboto, sans-serif;
 	font-size: 14px;
-	line-height: 1.5;
 }
 
 img {
@@ -61,6 +60,7 @@ img {
 
 .list-item .link {
 	text-decoration: none;
+	font-family: 'Roboto';
 	font-weight: 500;
 	color: var(--title-text-color);
 }
@@ -99,7 +99,7 @@ img {
 
 .button {
 	display: block;
-	border: 4px solid #da70d6;
+	border: 4px solid;
 	padding: 0;
 	margin: 0 auto;
 	width: 216px;
@@ -144,7 +144,7 @@ img {
 	&:hover {
 		border: 4px solid #2196F3;
 		background-color: #FFFFFF;
-		color: #da70d6;
+		color: var(--color-hover-bg-btn);
 
 		&::before {
 			left: calc(100% - 108px);
@@ -154,4 +154,24 @@ img {
 			right: calc(100% - 108px);
 		}
 	}
+}
+
+/* Section first -- description */
+.title-desc {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--title-desc-color);
+}
+
+.description {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
 }
