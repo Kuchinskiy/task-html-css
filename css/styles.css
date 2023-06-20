@@ -76,7 +76,7 @@ img {
 	font-weight: 500;
 }
 
-/* HERO */
+/* Section -- HERO - banner */
 .banner {
 	height: 600px;
 	background-color: var(--banner-bg-color);
@@ -174,4 +174,9 @@ img {
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
+}
+
+/* FOOTER */
+.contacts-date {
+	font-style: normal;
 }
