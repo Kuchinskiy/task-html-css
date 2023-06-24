@@ -93,12 +93,13 @@ img {
 }
 
 .title-page {
+	background: tomato;
 	color: var(--banner-title-btn-text-color);
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0;
 	padding-top: 200px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 
 	font-weight: 900;
 	font-size: 44px;
