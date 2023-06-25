@@ -7,9 +7,9 @@
 	--color-hover-bg-btn: #2196F3;
 }
 
-/* html {
+html {
 	box-sizing: border-box;
-} */
+}
 
 *,
 *::before,
@@ -55,6 +55,10 @@ img {
 	padding-right: 15px;
 }
 
+* {
+	outline: 1px solid tomato;
+}
+
 /* HEADER */
 .title {
 	font-size: 26px;
@@ -73,6 +77,8 @@ img {
 
 /* menu navigation */
 .list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 	letter-spacing: 0.02em;
 }
@@ -97,15 +103,15 @@ img {
 
 /* Section -- HERO - banner */
 .banner {
-	height: 600px;
+	min-height: 600px;
+	text-align: center;
 	background-color: var(--banner-bg-color);
 }
 
 .title-page {
-	/* background: tomato; */
 	color: var(--banner-title-btn-text-color);
 	text-transform: uppercase;
-	text-align: center;
+	/* text-align: center; */
 	margin: 0;
 	padding-top: 200px;
 	margin-bottom: 30px;
@@ -118,10 +124,10 @@ img {
 }
 
 .button {
-	display: block;
+	/* display: block; */
 	border: 4px solid;
-	padding: 0;
-	margin: 0 auto;
+	padding: 0 32px;
+	/* margin: 0 auto; */
 	min-width: 216px;
 	height: 50px;
 	background-color: var(--color-hover-bg-btn);
