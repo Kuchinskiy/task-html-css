@@ -2,9 +2,11 @@
 :root {
 	--primary-text-color: #757575;
 	--title-desc-color: #212121;
-	--banner-bg-color: #2F303A;
+	--banner-footer-bg-color: #2F303A;
 	--banner-title-btn-text-color: #FFFFFF;
 	--color-hover-bg-btn: #2196F3;
+	--section-secondary-team: #F5F4FA;
+
 }
 
 html {
@@ -48,23 +50,28 @@ img {
 }
 
 .container {
-	width: 1230px;
+	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+
+	outline: 2px solid tomato;
 }
 
-* {
-	outline: 1px solid tomato;
-}
 
 /* HEADER */
+/* временно для проверки */
+.page-header {
+	background-color: yellowgreen;
+} 
+
 .title {
 	font-size: 26px;
 	text-decoration: none;
 	letter-spacing: 0.03em;
 	font-family: 'Raleway';
+	font-weight: 700;
 }
 
 .name-web {
@@ -101,11 +108,13 @@ img {
 	font-weight: 500;
 }
 
+/* MAIN*/
+
 /* Section -- HERO - banner */
 .banner {
 	min-height: 600px;
 	text-align: center;
-	background-color: var(--banner-bg-color);
+	background-color: var(--banner-footer-bg-color);
 }
 
 .title-page {
@@ -150,7 +159,7 @@ img {
 		position: absolute;
 		left: 0;
 		top: -4px;
-		background: var(--banner-bg-color);
+		background: var(--banner-footer-bg-color);
 		transition: 150ms linear;
 	}
 
@@ -162,7 +171,7 @@ img {
 		position: absolute;
 		right: 0;
 		bottom: -4px;
-		background: var(--banner-bg-color);
+		background: var(--banner-footer-bg-color);
 		transition: 150ms linear;
 	}
 
@@ -201,8 +210,22 @@ img {
 	color: var(--primary-text-color);
 }
 
+/* Section -- secondary team */
+.background {
+	background-color: var(--section-secondary-team);
+}
+
 /* FOOTER */
 .contacts-date {
 	font-style: normal;
 	line-height: 1.7;
+}
+
+/* background color */
+.bg-footer{
+	background-color: var(--banner-footer-bg-color);
+}
+
+.studio_footer {
+	color: #FFFFFF;
 }
