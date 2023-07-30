@@ -50,7 +50,7 @@ img {
 }
 
 .container {
-	width: 1200px;
+	width: 1240px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 20px;
@@ -63,8 +63,14 @@ img {
 /* HEADER */
 /* временно для проверки */
 .page-header {
-	background-color: yellowgreen;
-} 
+	/* background-color: yellowgreen; */
+}
+
+/* Main-nav */
+.main-nav {
+	display: flex;
+	align-items: center;
+}
 
 .title {
 	font-size: 26px;
@@ -96,6 +102,9 @@ img {
 }
 
 .list-item .link {
+	display: block;
+	padding-top: 21px;
+	padding-bottom: 21px;
 	text-decoration: none;
 	font-family: 'Roboto';
 	font-weight: 500;
