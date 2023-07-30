@@ -53,8 +53,8 @@ img {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 	outline: 2px solid tomato;
 }
@@ -84,10 +84,15 @@ img {
 
 /* menu navigation */
 .list {
+	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	letter-spacing: 0.02em;
+}
+
+.list > .list-item:not(:last-child) {
+	margin-right: 40px;
 }
 
 .list-item .link {
