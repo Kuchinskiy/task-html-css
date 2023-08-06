@@ -5,8 +5,7 @@
 	--banner-footer-bg-color: #2F303A;
 	--banner-title-btn-text-color: #FFFFFF;
 	--color-hover-bg-btn: #2196F3;
-	--section-secondary-team: #F5F4FA;
-
+	--section-our-team: #F5F4FA;
 }
 
 html {
@@ -57,6 +56,10 @@ img {
 	padding-right: 20px;
 
 	outline: 2px solid tomato;
+}
+
+section {
+	margin-bottom: 100px;
 }
 
 
@@ -136,7 +139,6 @@ img {
 .banner {
 	min-height: 600px;
 	text-align: center;
-	margin-bottom: 100px;
 	background-color: var(--banner-footer-bg-color);
 }
 
@@ -242,9 +244,46 @@ img {
 	color: var(--primary-text-color);
 }
 
-/* Section -- secondary team */
+/* Section -- secondary */
+.title-section {
+	margin: 0;
+	text-align: center;
+	margin-bottom: 50px;
+
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Roboto';
+	line-height: 1.2;
+	color: var(--title-desc-color);
+}
+
+.padding-zero {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.list >.item {
+	margin-right: 30px;
+}
+
+.list > .item:nth-child(3n) {
+	margin-right: 0;
+}
+
+/* Section --our team */
 .background {
-	background-color: var(--section-secondary-team);
+	background-color: var(--section-our-team);
+	margin-bottom: 0;
+}
+
+.list > .item-team {
+	margin-right: 30px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, 
+	rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.list > .item-team:nth-child(4n) {
+	margin-right: 0;
 }
 
 /* FOOTER */
