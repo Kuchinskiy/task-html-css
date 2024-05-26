@@ -91,9 +91,10 @@ section {
 	color: #000000;
 }
 
-/* menu navigation & description section */
+/* menu navigation & description section & our team */
 .list {
 	display: flex;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -271,10 +272,25 @@ section {
 }
 
 /* Section --our team */
+.card-name-people {
+	width: 270px;
+	text-align: center;
+	background-color: #fff;
+}
+
 .background {
 	min-height: 650px;
 	background-color: var(--section-our-team);
 	margin-bottom: 0;
+}
+
+.image-circle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:90%;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
 }
 
 .title-section {
@@ -282,7 +298,6 @@ section {
 }
 
 .list > .item-team {
-	/* text-align: center; */
 	margin-right: 30px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, 
 	rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -292,9 +307,8 @@ section {
 	margin-right: 0;
 }
 
-.name-people {
-	text-align: center;
-	background-color: #fff;
+.item-team > .image-circle {
+	margin-top: 15px;
 }
 
 .name-employee {
