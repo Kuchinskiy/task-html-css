@@ -94,6 +94,7 @@ section {
 /* menu navigation & description section & our team */
 .list {
 	display: flex;
+	/* flex-wrap: wrap; */
 	justify-content: space-between;
 	margin: 0;
 	padding: 0;
@@ -272,20 +273,28 @@ section {
 }
 
 /* Section --our team */
-.card-name-people {
-	width: 270px;
-	text-align: center;
-	background-color: #fff;
-}
-
 .background {
 	min-height: 650px;
 	background-color: var(--section-our-team);
 	margin-bottom: 0;
 }
 
+.card-name-people {
+	width: 270px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.card-name-people:hover {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+            -23px 0 20px -23px rgba(0, 0, 0, .6),
+            23px 0 20px -23px rgba(0, 0, 0, .6),
+            inset 0 0 40px rgba(0, 0, 0, .1);
+}
+
 .image-circle {
 	display: block;
+	/* margin: 0 auto; */
 	margin-left: auto;
 	margin-right: auto;
 	width:90%;
@@ -297,11 +306,11 @@ section {
 	padding-top: 100px;
 }
 
-.list > .item-team {
+/* .list > .item-team {
 	margin-right: 30px;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, 
 	rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-}
+} */
 
 .list > .item-team:nth-child(4n) {
 	margin-right: 0;
