@@ -6,6 +6,7 @@
 	--banner-title-btn-text-color: #FFFFFF;
 	--color-hover-bg-btn: #2196F3;
 	--section-our-team: #F5F4FA;
+	--current-nav-page-color: #ff0000;
 }
 
 html {
@@ -38,6 +39,8 @@ input[type="radio"].visually-hidden {
 
 body {
 	/* margin: 0; */
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
 	font-family: Raleway, Roboto, sans-serif;
 	font-size: 14px;
 }
@@ -69,7 +72,7 @@ section {
 	/* background-color: yellowgreen; */
 }
 
-/* Main-nav */
+/* Navigation page */
 .main-nav {
 	display: flex;
 	align-items: center;
@@ -104,6 +107,11 @@ section {
 
 .site-nav {
 	margin-left: 70px;
+}
+
+/* Подсветка текущей страницы */
+.site-nav .link.current {
+	color: var(--current-nav-page-color);
 }
 
 .list > .list-item:not(:last-child) {
