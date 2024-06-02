@@ -39,9 +39,10 @@ input[type="radio"].visually-hidden {
 
 body {
 	/* margin: 0; */
+	/* Встроеные шрифты в системе пользователя на локальном клиенте */
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-
-	font-family: Raleway, Roboto, sans-serif;
+	/* Кастомные шрифты с google.fonts внешнее подключение */
+	font-family: Roboto, sans-serif;
 	font-size: 14px;
 }
 
@@ -80,10 +81,10 @@ section {
 
 .title {
 	font-size: 26px;
+	font-family: Raleway;
+	font-weight: 700;
 	text-decoration: none;
 	letter-spacing: 0.03em;
-	font-family: 'Raleway';
-	font-weight: 700;
 }
 
 .name-web {
@@ -123,7 +124,6 @@ section {
 	padding-top: 21px;
 	padding-bottom: 21px;
 	text-decoration: none;
-	font-family: 'Roboto';
 	font-weight: 500;
 	color: var(--title-text-color);
 }
@@ -254,7 +254,7 @@ section {
 	color: var(--primary-text-color);
 }
 
-/* Section -- secondary */
+/* Section -- secondary & third */
 .title-section {
 	margin: 0;
 	text-align: center;
