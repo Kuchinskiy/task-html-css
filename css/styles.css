@@ -43,6 +43,7 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	/* Кастомные шрифты с google.fonts внешнее подключение */
 	font-family: Roboto, sans-serif;
+	font-weight: 400;
 	font-size: 14px;
 }
 
@@ -329,13 +330,18 @@ section {
 }
 
 .name-employee {
+	font-size: 16px;
+	font-weight: 500;
 	margin-top: 25px;
 	margin-bottom: 15px;
+	color: var(--title-desc-color);
 }
 
 .name-function {
+	font-size: 16px;
 	margin-top: 0;
 	margin-bottom: 15px;
+	color: var(--primary-text-color);
 }
 
 /* FOOTER */
@@ -344,11 +350,20 @@ section {
 	line-height: 1.7;
 }
 
+.item-adress {
+	color: #FFFFFF;
+}
+
 /* background color */
 .bg-footer{
 	background-color: var(--banner-footer-bg-color);
 }
 
-.studio_footer {
+.studio-footer {
 	color: #FFFFFF;
+}
+
+.list-item .connect-adress {
+	font-weight: 400;
+	color: var(--primary-text-color);
 }
