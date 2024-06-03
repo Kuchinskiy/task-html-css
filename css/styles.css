@@ -39,12 +39,13 @@ input[type="radio"].visually-hidden {
 
 body {
 	/* margin: 0; */
+
 	/* Встроеные шрифты в системе пользователя на локальном клиенте */
-	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; */
+
 	/* Кастомные шрифты с google.fonts внешнее подключение */
 	font-family: Roboto, sans-serif;
 	font-weight: 400;
-	font-size: 14px;
 }
 
 img {
@@ -237,10 +238,9 @@ section {
 }
 
 .title-desc {
-	font-family: 'Roboto';
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 1.1;
+	line-height: 1.2;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--title-desc-color);
@@ -346,7 +346,7 @@ section {
 
 /* FOOTER */
 .contacts-date {
-	font-style: normal;
+	/* font-style: normal; */
 	line-height: 1.7;
 }
 
